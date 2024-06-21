@@ -1,0 +1,135 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* App.css */
+.alert-success {
+  background-color: yellow;
+  color: black;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 0.9999999s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate-image {
+  animation: rotate 2s linear infinite; /* Apply the animation */
+}
+
+.center-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none; /* Ensures the image does not affect mouse interactions */
+}
+
+.text-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-area-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-image {
+  animation: rotate 2s linear infinite; /* Apply the animation */
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg); /* Start rotation from 0 degrees */
+  }
+  to {
+    transform: rotate(360deg); /* Rotate to 360 degrees */
+  }
+}
+
+
+.center-image {
+  max-width: 80px;
+  animation: rotate 3s linear infinite;
+  max-height: 100%;
+  margin-top: 10.5vw;
+  margin-left: 30vw;
+  pointer-events: none;
+}
+.blank{
+  color: blue;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .App-header {
+    min-height: auto; /* Remove min-height */
+  }
+  .text-form-container {
+    flex-direction: column; /* Stack text form and image vertically */
+  }
+  .text-area-container {
+    padding: 10px; /* Reduce padding */
+  }
+  .image-container {
+    margin-top: 20px; /* Adjust margin */
+  }
+  .center-image {
+    margin-top: 50vw;
+    margin-left: 26vw;/* Center the image */
+    margin-right: auto; /* Center the image */
+  }
+}
+
+/* Tablet and larger screens styles */
+@media (min-width: 768px) {
+  .text-form-container {
+    flex-direction: row; /* Display text form and image side by side */
+  }
+  .text-area-container {
+    padding: 20px; /* Restore padding */
+  }
+  .image-container {
+    margin-top: 0; /* Reset margin */
+  }
+}
