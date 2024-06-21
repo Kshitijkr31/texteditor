@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Kshitijkr31/texteditor/static/css/main.8eeb92d8.css",
+    "main.js": "/Kshitijkr31/texteditor/static/js/main.08a7df27.js",
+    "static/js/453.fa9b26e8.chunk.js": "/Kshitijkr31/texteditor/static/js/453.fa9b26e8.chunk.js",
+    "index.html": "/Kshitijkr31/texteditor/index.html",
+    "main.8eeb92d8.css.map": "/Kshitijkr31/texteditor/static/css/main.8eeb92d8.css.map",
+    "main.08a7df27.js.map": "/Kshitijkr31/texteditor/static/js/main.08a7df27.js.map",
+    "453.fa9b26e8.chunk.js.map": "/Kshitijkr31/texteditor/static/js/453.fa9b26e8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8eeb92d8.css",
+    "static/js/main.08a7df27.js"
+  ]
+}
